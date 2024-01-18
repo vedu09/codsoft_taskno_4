@@ -20,4 +20,28 @@
     <li>sklearn.model_selection.LinearRegression</li>
 </ul>
 
-<h2></h2>
+<h2>Data Exploration and Preprocessing</h2>
+<ul>
+    <li>The structure and summary statistics of the dataset were unveiled through the implementation of `df.shape` to ascertain its dimensions and `df.describe()` to present a comprehensive overview of its key statistical measures.</li>
+    <li>A scatter graph was created to visualize the relationship between advertising expenditure on TV, Radio, Newspaper, and sales using plt.scatter to identify correct correlation between them.</li>
+</ul>
+
+<h2>Model Training</h2>
+<ul>
+    <li>The dataset was divided into training and testing sets using `train_test_split`.</li>
+    <li>A linear regression model was trained on the training data using `sklearn.linear_model.LinearRegression`.</li>
+    <li>Scatter Graphs are created for Regression (Test Set) and Regression (Train Set) between TV advertising and Sales</li>
+</ul>
+
+<h2>Model Results</h2>
+<ul>
+    <li>The model predicted sales for the test set based on TV advertising expenses using `linear_model.predict(x_test)` and the corresponding TV advertising expenditures in the test set.</li>
+    <li>R2 Score was calculated which was 81% using 'r2_score(y_test,y_predict)'</li>
+    <li>Mean Squared Error was calculated which was 5.405 using 'mean_squared_error(y_test,y_predict)'</li>
+</ul>
+
+<h2>Testing Model</h2>
+<ul>
+    <li>The model coefficients and intercept were extracted using `linear_model.coef_` and `linear_model.intercept_`.</li>
+    <li>x_test value was accepted and printed the prediction sales</li>
+</ul>
