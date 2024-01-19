@@ -32,9 +32,10 @@
 <ul>
     <li>A scatter graph was created to visualize the relationship between advertising expenditure on TV, Radio, Newspaper, and sales using plt.scatter to identify correct correlation between them.</li>
     <li>According, to given scatter graphs
-TV vs Sales ----> High degree +ve correlation
-Radio vs Sales ----> No Correlation
-Newspaper vs Sales ----> No Correlation</li>
+        <ol><li>TV vs Sales ----> High degree +ve correlation</li>
+            <li>Radio vs Sales ----> No Correlation</li>
+            <li>Newspaper vs Sales ----> No Correlation</li></li>
+        </ol>
 </ul>
 
 
