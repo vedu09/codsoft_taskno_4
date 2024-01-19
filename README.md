@@ -23,14 +23,26 @@
 <h2>Data Exploration and Preprocessing</h2>
 <ul>
     <li>The structure and summary statistics of the dataset were unveiled through the implementation of `df.shape` to ascertain its dimensions and `df.describe()` to present a comprehensive overview of its key statistical measures.</li>
-    <li>A scatter graph was created to visualize the relationship between advertising expenditure on TV, Radio, Newspaper, and sales using plt.scatter to identify correct correlation between them.</li>
+    <li>Missing values in the dataset were checked using df.isna().sum().</li>
+    <li>If any missing values are found they were droped by df.dropna() function.</li>
 </ul>
+
+
+<h2>Data Visualization</h2>
+<ul>
+    <li>A scatter graph was created to visualize the relationship between advertising expenditure on TV, Radio, Newspaper, and sales using plt.scatter to identify correct correlation between them.</li>
+    <li>According, to given scatter graphs
+TV vs Sales ----> High degree +ve correlation
+Radio vs Sales ----> No Correlation
+Newspaper vs Sales ----> No Correlation</li>
+</ul>
+
 
 <h2>Model Training</h2>
 <ul>
     <li>The dataset was divided into training and testing sets using `train_test_split`.</li>
     <li>A linear regression model was trained on the training data using `sklearn.linear_model.LinearRegression`.</li>
-    <li>Scatter Graphs are created for Regression (Test Set) and Regression (Train Set) between TV advertising and Sales</li>
+    <li>2d Scatter Graphs are created for Regression (Test Set) and Regression (Train Set) between TV advertising and Sales</li>
 </ul>
 
 <h2>Model Results</h2>
